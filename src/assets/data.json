@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "img": "https://preview.colorlib.com/theme/aranoz/img/product/product_1.png",
+    "name": "Luxury Velvet Chair",
+    "description": "Elegant velvet chair with a modern design.",
+    "rating": 4.5,
+    "price": 299.99,
+    "priceYouSave": 50.0,
+    "specification": "Dimensions: 30\"x30\"x35\", Material: Velvet",
+    "overview": "A perfect addition to any modern living space, combining comfort and style.",
+    "review": "This chair is incredibly comfortable and adds a touch of luxury to my home!"
+  },
+  {
+    "id": 2,
+    "img": "https://preview.colorlib.com/theme/aranoz/img/product/product_2.png",
+    "name": "Classic Leather Armchair",
+    "description": "Comfortable leather armchair with classic styling.",
+    "rating": 4.7,
+    "price": 399.99,
+    "priceYouSave": 100.0,
+    "specification": "Dimensions: 32\"x32\"x36\", Material: Leather",
+    "overview": "Timeless design with unmatched comfort, ideal for any traditional decor.",
+    "review": "Love this armchair! Perfect for reading and relaxing."
+  },
+  {
+    "id": 3,
+    "img": "https://preview.colorlib.com/theme/aranoz/img/product/product_3.png",
+    "name": "Minimalist Dining Chair",
+    "description": "Sleek and minimalist dining chair for modern homes.",
+    "rating": 4.2,
+    "price": 149.99,
+    "priceYouSave": 30.0,
+    "specification": "Dimensions: 18\"x20\"x35\", Material: Plastic",
+    "overview": "Functional and stylish, perfect for both dining and extra seating.",
+    "review": "Sturdy and stylish! Fits perfectly in my dining area."
+  },
+  {
+    "id": 4,
+    "img": "https://preview.colorlib.com/theme/aranoz/img/product/product_4.png",
+    "name": "Mid-century Lounge Chair",
+    "description": "Stylish lounge chair with mid-century charm.",
+    "rating": 4.8,
+    "price": 349.99,
+    "priceYouSave": 70.0,
+    "specification": "Dimensions: 28\"x28\"x30\", Material: Fabric",
+    "overview": "A chic and comfortable lounge chair that makes a statement.",
+    "review": "So stylish! It really enhances my living room."
+  },
+  {
+    "id": 5,
+    "img": "https://preview.colorlib.com/theme/aranoz/img/product/product_5.png",
+    "name": "Contemporary Office Chair",
+    "description": "Ergonomic office chair with contemporary design.",
+    "rating": 4.6,
+    "price": 249.99,
+    "priceYouSave": 40.0,
+    "specification": "Dimensions: 24\"x24\"x40\", Material: Mesh",
+    "overview": "Combining comfort with modern design, this chair is ideal for long hours.",
+    "review": "Great chair for my home office! Very comfortable."
+  },
+  {
+    "id": 6,
+    "img": "https://preview.colorlib.com/theme/aranoz/img/product/product_6.png",
+    "name": "Scandinavian Armchair",
+    "description": "Lightweight and stylish armchair with Scandinavian design.",
+    "rating": 4.4,
+    "price": 199.99,
+    "priceYouSave": 25.0,
+    "specification": "Dimensions: 26\"x28\"x32\", Material: Wood and Fabric",
+    "overview": "An elegant addition to your living space with a Scandinavian touch.",
+    "review": "Very stylish and comfy. Love the design!"
+  },
+  {
+    "id": 7,
+    "img": "https://preview.colorlib.com/theme/aranoz/img/product/product_7.png",
+    "name": "Elegant Recliner",
+    "description": "Comfortable recliner for relaxation and style.",
+    "rating": 4.9,
+    "price": 499.99,
+    "priceYouSave": 150.0,
+    "specification": "Dimensions: 30\"x36\"x40\", Material: Faux Leather",
+    "overview": "A luxurious recliner that provides exceptional comfort and support.",
+    "review": "This is the best recliner I’ve ever owned. So comfortable!"
+  }
+]
