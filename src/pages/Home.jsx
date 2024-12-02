@@ -5,7 +5,7 @@ import OurAdvantage from "../components/OurAdvantage"
 
 const Home = () => {
     return (
-        <div className="pl-2 pr-2 bg-gray-100 mt-0">
+        <div className="pl-2 pr-2 bg-gray-100 text-black mt-0">
             <Product1 />
             <FeatureProducts />
             <TopProduct />

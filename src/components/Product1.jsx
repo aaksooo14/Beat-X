@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import data from '../assets/data.json'
-
+import data from '../assets/newData.json'
+console.log(data)
 const Product1 = () => {
 
 
@@ -27,13 +27,13 @@ const Product1 = () => {
                         <Link to={`/${item.id}`}>
                             <img
 
-                                src={item.img}
-                                className="w-full  "
+                                src={item.image}
+                                className="w-[90vw]"
                                 alt="Carousel item"
                             />
                         </Link>
                         <div className='pt-2 space-y-2'>
-                            <p className="text-2xl font-semibold">{item.name}</p>
+                            <p className="text-2xl font-semibold">{item.title}</p>
                             <p className="text-gray-600 text-xl">{item.price}</p>
                             <button className="bg-pink-900 p-2 text-white font-semibold w-[30vw] rounded">
                                 Explore

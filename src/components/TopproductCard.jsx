@@ -2,21 +2,20 @@
 
 import { Link } from "react-router-dom";
 
-import PropTypes from 'prop-types';
 
 const TopproductCard = ({ item }) => {
-
+    console.log(item)
 
     return (
         <div>
             <div className="card lg:card-side border-2 rounded-sm border-black">
                 <figure>
                     <Link to={`/${item.id}`}>
-                        <img src={item.img} alt={item.name} />
+                        <img src={item.image} alt={item.title} />
                     </Link>
                 </figure>
                 <div className="card-body">
-                    <h2 className="card-title">{item.name}</h2>
+                    <h2 className="card-title">{item.title}</h2>
                     <p>{item.price.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</p>
                     <div>
                         <button
@@ -32,13 +31,6 @@ const TopproductCard = ({ item }) => {
     );
 }
 
-TopproductCard.propTypes = {
-    item: PropTypes.shape({
-        id: PropTypes.number.isRequired,
-        img: PropTypes.string.isRequired,
-        name: PropTypes.string.isRequired,
-        price: PropTypes.number.isRequired,
-    }).isRequired,
-};
+
 
 export default TopproductCard;

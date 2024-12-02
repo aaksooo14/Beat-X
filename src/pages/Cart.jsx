@@ -5,10 +5,10 @@ import { removeFromCart } from '../slices/cartSlice';
 const Cart = () => {
     const dispatch = useDispatch();
     const cartItems = useSelector(state => state.cart);
-    console.log(cartItems)
 
     const handleRemove = (id) => {
-        dispatch(removeFromCart(id));
+        console.log(id)
+        dispatch(removeFromCart({ id }));
     };
 
     const totalPrice = cartItems.reduce((total, item) => total + item.price, 0);
@@ -24,9 +24,9 @@ const Cart = () => {
                         {cartItems.map(item => (
                             <li key={item.id} className="flex items-center justify-between p-3 border-b">
                                 <div className="flex items-center">
-                                    <img src={item.img} alt={item.name} className="w-16 h-auto mr-3" />
+                                    <img src={item.image} alt={item.name} className="w-16 h-auto mr-3" />
                                     <div>
-                                        <h2 className="font-semibold">{item.name}</h2>
+                                        <h2 className="font-semibold">{item.title}</h2>
                                         <p className="text-gray-600">Price: ${item.price}</p>
                                     </div>
                                 </div>

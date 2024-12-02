@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "boAt Airdopes 131",
+    "description": "Wireless Earbuds with upto 60 Hours Playback, 13mm Drivers, IWP Technology, 650mAh Charging Case",
+    "category": "airdopes",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_600x.png?v=1668756103",
+    "price": 899,
+    "originalPrice": 2990
+  },
+  {
+    "id": 2,
+    "title": "boAt Airdopes 181",
+    "description": "Wireless Earbuds with 10mm Driver, Type C Interface, BEAST™ Mode & Voice Assistant, ENx Technology",
+    "category": "airdopes",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/main_black_357b6c8e-1332-4864-bf5c-b83ca9caf4bc_600x.png?v=1641980343",
+    "price": 1099,
+    "originalPrice": 2990
+  },
+  {
+    "id": 3,
+    "title": "boAt Airdopes 161",
+    "description": "Wireless Earbuds with Massive Playback of upto 40 Hours, IPX5 Water & Sweat Resistance, IWP Technology, Type C Interface",
+    "category": "airdopes",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/files/ACCG6DS7WDJHGWSH_0_1500x.png?v=1727669669",
+    "price": 899,
+    "originalPrice": 2490
+  },
+  {
+    "id": 4,
+    "title": "boAt Airdopes 115",
+    "description": "Earbuds with 13mm drivers, BEAST™ Mode for Gamers, ENx™ Technology",
+    "category": "airdopes",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/115-main4_600x.png?v=1650530656",
+    "price": 1899,
+    "originalPrice": 2990
+  },
+  {
+    "id": 5,
+    "title": "boAt Airdopes 280 ANC",
+    "description": "Wireless Earbuds with ANC up to 32dB, Quad Mics ENx™ Tech, 60 Hours Playback",
+    "category": "airdopes",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/files/Artboard12_7cd6267a-4c4f-4cc5-866d-3a28d00fe278_800x.png?v=1721273403",
+    "price": 1399,
+    "originalPrice": 6990
+  },
+  {
+    "id": 6,
+    "title": "boAt Wave Flex Connect",
+    "description": "1.83 (4.64 cm) Large Display BT Calling Smartwatch, Upto 10 Days Battery, IP68, Dust & Splash Resistance",
+    "category": "smart-watches",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/WaveFlexConnectPackaging1.2_800x.png?v=1677645513",
+    "price": 1699,
+    "originalPrice": 7990
+  },
+  {
+    "id": 7,
+    "title": "boAt Wave Leap Call",
+    "description": "Premium Bluetooth Calling Smartwatch with 1.83 (4.64 cm) HD Display, 100+ Sports Modes, 10 Days Of Battery Life",
+    "category": "smart-watches",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/Leapcall.5284_800x.png?v=1678948531",
+    "price": 1299,
+    "originalPrice": 6990
+  },
+  {
+    "id": 8,
+    "title": "boAt Wave Sigma 3",
+    "description": "Smartwatch with 2.01 Display, BT Calling, 700+ Active Modes, Emergency SOS, Live Sports Updates",
+    "category": "smart-watches",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/files/WaveSigma3_FIs_ActiveBlack01_1300x.png?v=1715601060",
+    "price": 1399,
+    "originalPrice": 8990
+  },
+  {
+    "id": 9,
+    "title": "boAt Wave Magma",
+    "description": "Smartwatch with 1.96 HD Display, 100+ Sports Modes, IP68 Dust & Water Resistance",
+    "category": "smart-watches",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/files/Artboard4_070497d5-41be-4fff-9d9e-3637ef11deea_600x.png?v=1705908523",
+    "price": 5999,
+    "originalPrice": 6990
+  },
+  {
+    "id": 10,
+    "title": "boAt Storm Call 3",
+    "description": "Smartwatch with built-in Map Navigation, 1.83 HD Display, BT Calling, 700+ Activity Modes, SOS Feature",
+    "category": "smart-watches",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/files/Artboard1copy_800x.png?v=1712639870",
+    "price": 1199,
+    "originalPrice": 8499
+  }
+]

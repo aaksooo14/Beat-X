@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import data from '../assets/data.json'
+import data from '../assets/newData.json'
 const FeatureProducts = () => {
     return (
         <>
@@ -14,7 +14,7 @@ const FeatureProducts = () => {
                         <div key={item.id} id="item1" className="carousel-item w-full">
                             <Link to={`/${item.id}`}>
                                 <img
-                                    src={item.img}
+                                    src={item.image}
                                     className="w-[100vw]" />
                             </Link>
                         </div>

@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../slices/cartSlice'; // Adjust the import path
-import data from '../assets/data.json';
+import data from '../assets/newData.json';
 import { useState } from "react";
-
+console.log(data)
 const DetailCard = () => {
 
     const [color, setColor] = useState(true)
@@ -12,7 +12,9 @@ const DetailCard = () => {
     const { id } = useParams();
     const dispatch = useDispatch();
     const productId = parseInt(id, 10);
+    console.log(productId)
     const product = data.find(item => item.id === productId);
+    console.log(product)
 
     const handleAddToCart = () => {
         if (product) {
@@ -30,7 +32,7 @@ const DetailCard = () => {
                         <div>
                             <img
                                 className="w-full h-auto border-b-2 p-2"
-                                src={product.img}
+                                src={product.image}
                                 alt={`Product ${productId}`} />
                         </div>
                         {/* Small Images */}
@@ -46,7 +48,7 @@ const DetailCard = () => {
                         </div>
                         {/* Description */}
                         <div className="border-b-2 p-2 mt-0 space-y-1">
-                            <h2 className="text-xl font-bold">{product.name}</h2>
+                            <h2 className="text-xl font-bold">{product.title}</h2>
                             <p className="text-gray-600">{product.description}</p>
                             <p className="text-yellow-500">{product.rating} Ratings</p>
                         </div>
@@ -71,7 +73,7 @@ const DetailCard = () => {
                         </div>
                         {/* Menu */}
                         <div className="flex-row items-center justify-center p-2">
-                            <ul className="menu menu-horizontal space-x-2 lg:menu-horizontal bg-base-200 items-center justify-center">
+                            <ul className="menu menu-horizontal space-x-2 lg:menu-horizontal flex items-center justify-center">
                                 <li><a className="hover:text-blue-600">Specifications</a></li>
                                 <li><a className="hover:text-blue-600">Overview</a></li>
                                 <li><a className="hover:text-blue-600">Review</a></li>
